@@ -25,26 +25,6 @@
 
 	var custom = {
 	
-		ver: "2.0.4-20170505", // just something to check for in the Browser Console, does nothing else
-		
-		libChatAPI:      "6350", // Id of chat widget (found in the chat widget list) - pick one to check availability
-		libChatPopOutID: "d9d14e67b4dedba93c480b3c4d0d8547", // pop out chat for mobile (found in embed code where hash=....)
-		libChatInPageID: "b5203543ce0f6b8807fae61a58e0cf15", // bottom up for tablet/desktop (found in embed code where hash=....)
-		libChatNoJQuery: "56b9a634da0ae2347f5fc44b215d6ffc", // vanilla libchat to use if jQuery not available (found in embed code where hash=....)
-		
-		askPageURL:        "http://www.stthomas.edu/libraries/ask", // Default link to your ASK page
-		chatLabelDefault:  "Ask a UST Librarian", // Default text to show before chat loads (will remain if error)
-		chatLabelAvail:    "Chat with a UST Librarian", // When chat is available, the label text to display
-		chatLabelNotAvail: "Need Help?", // When chat is not available, the label text to display
-		chatNotAvailPage:  "https://static.stthomas.edu/libraries/js/chat/not-available.html?v=40", // static to show in widget ifram when chat not available
-		chatCSS:           "https://static.stthomas.edu/libraries/js/chat/libchat.min.css", // css styling for chat (chat box needs to be styled in libchat)
-	
-		checkRate_ms: (15 * 1000) // 10 seconds = 10 * 1000; 15 seconds = 15 * 1000; used to limit how frequent api is called
-	};
-	
-	/*
-	var custom = {
-	
 		ver: "2.0.3-20170505", // just something to check for in the Browser Console, does nothing else
 		
 		libChatAPI:      "[chatID]", // Id of chat widget (4-5 number id found in the chat widget list) - pick one to check availability
@@ -61,8 +41,6 @@
 	
 		checkRate_ms: (15 * 1000) // 10 seconds = 10 * 1000; 15 seconds = 15 * 1000; used to limit how frequent api is called
 	};
-	*/
-	
 	
 	/* 
 	 * END CUSTOM VARIABLES
